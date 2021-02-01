@@ -30,7 +30,7 @@ object WordCount1 {
       classOf[TextOutputFormat[Text, IntWritable]])
     // 5. 启动流
     ssc.start()
-    // 6. 阻止主线程退出(阻塞主线程)
+    // 6. 阻止主线程退出(阻塞主线程) z
     ssc.awaitTermination()
   }
 }
